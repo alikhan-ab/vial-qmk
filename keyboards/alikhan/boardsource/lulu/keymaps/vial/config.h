@@ -8,6 +8,8 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
+#define SPLIT_USB_TIMEOUT 4000
+
 #if defined(__AVR_ATmega32U4__)
     #undef ENABLE_RGB_MATRIX_BAND_SAT
     #undef ENABLE_RGB_MATRIX_BAND_VAL
