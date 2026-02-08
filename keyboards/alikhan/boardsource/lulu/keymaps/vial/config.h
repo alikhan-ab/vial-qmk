@@ -14,3 +14,10 @@
     #undef ENABLE_RGB_MATRIX_BAND_SAT
     #undef ENABLE_RGB_MATRIX_BAND_VAL
 #endif
+
+
+// --- PIN JUMP FIX ---
+// I have jumped D7 to D4 on the left half
+#undef MATRIX_ROW_PINS
+#define MATRIX_ROW_PINS { C6, D4, E6, B4, B5 }
+#define MATRIX_ROW_PINS_RIGHT { C6, D7, E6, B4, B5 }
